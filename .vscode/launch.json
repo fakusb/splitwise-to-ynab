@@ -1,0 +1,17 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: import",
+            "type": "python",
+            "request": "launch",
+            "program": "import.py",
+            "args": ["./CSVs/sophie-h-and-fabian-k_2023-10-23_export.csv", "2021-10-09"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

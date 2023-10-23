@@ -20,12 +20,10 @@ You can export your list of transactions in a CSV from Splitwise.
 
 In the root directory of the repo, replace the inputs appropriately and run the following:
 ```
-python3 import.py splitwise-exported-txns.csv yourVeryLongYnabPersonalAccessToken yourBudgetAccountId DateStart DateEnd
+python3 import.py splitwise-exported-txns.csv DateStart DateEnd
 ```
 
 ## Notes
-- **yourBudgetAccountId** can either be the literal id or "last-used".
-
 - Date format is YYYY-MM-DD.
 
 - **DateEnd** is optional. It will import all transactions starting from the DateStart inclusive until the very end if it is included.
